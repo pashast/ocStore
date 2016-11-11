@@ -15,9 +15,9 @@
 Залить содержимое папки UPLOAD в корень сайта  
 Установить `ocnova-original_h1.maincategory.ocmod.xml` через стандартный установщик дополнений  
 Установить русский язык в System-localisation-languages с такими настройками:  
-  -Language Name: Русский
-  -Code: ru-ru
-  -Locale: ru,ru_RU,ru_RU.UTF-8  
+  *Language Name: Русский  
+  *Code: ru-ru  
+  *Locale: ru,ru_RU,ru_RU.UTF-8  
 Выполнить в бд вашего магазина запрос `sql.sql`  
 
 ##Возможные проблемы##
