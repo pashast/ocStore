@@ -170,7 +170,8 @@ class ControllerStartupSeoPro extends Controller {
 		}
 
 		$queries = array();
-        if(!in_array($route, array('product/search'))) {
+		
+                if(!in_array($route, array('product/search'))) {
 			foreach ($data as $key => $value) {
 				switch ($key) {
 					case 'product_id':
@@ -196,7 +197,6 @@ class ControllerStartupSeoPro extends Controller {
 				}
 			}
 		}
-
 
 		if(empty($queries)) {
 			$queries[] = $route;
